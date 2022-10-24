@@ -12,6 +12,9 @@ public class DemoController {
 	public String fun(@RequestParam("userName") String userName) {
 		System.out.println("In controller");
 		return "automation testing here " + userName;
+		
+		
+	
 	}
 
 }
